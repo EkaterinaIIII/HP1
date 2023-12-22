@@ -1,0 +1,125 @@
+html{
+background-image: url('./Hogwats.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto;
+	padding: 20px auto;
+	margin-bottom: 1rem;
+}
+.card{
+    width: 25%;
+    max-width: 300px;
+    border: 5px solid black;
+	background-color:#fff;
+    padding: 20px;
+margin-bottom: 1rem;	
+}
+.block{
+	background-image: url('./Hp.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+}
+.block1{
+	background-image: url('./Ron.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+.block2{
+	background-image: url('./GG.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+	.block3{
+	background-image: url('./ND.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block4{
+	background-image: url('./DM.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block5{
+	background-image: url('./Ol.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block6{
+	background-image: url('./K.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block7{
+	background-image: url('./P.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block8{
+	background-image: url('./SD.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+		.block9{
+	background-image: url('./VV.jpg');
+    height: 200px;
+    width: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	}
+	
+.card_description{
+    margin-top: 15px;
+    text-align: center;
+}
+/* Медиазпросы */
+ @media screen and (max-width: 768px) {
+    .card {
+      width: 50%; 
+      max-width: 100%; 
+      margin: auto auto 10px; 
+    }
+   }
+ @media screen and (max-width: 480px) {
+    .card {
+      width: 95%; 
+    }
+   }
